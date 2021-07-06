@@ -35,15 +35,11 @@ h3 {
 }
 
 .half-width img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+
 }
 
-img {
-    height: 3000%;
-    width: 100%;
-    margin-top: 10%;
-}
+
 
 .link-button {
     text-decoration: none;
@@ -82,12 +78,15 @@ img {
 }
 
 #full-stack {
+    box-shadow: 10px 10px 25px grey;
     border-left: 7px solid;
     border-image: linear-gradient(rgb(84, 87, 56), tomato);
     border-image-slice: 1;
 }
 
 #Baby-web {
+    box-shadow: 10px 10px 25px grey;
+
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
